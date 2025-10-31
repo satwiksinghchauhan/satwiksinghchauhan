@@ -39,7 +39,7 @@ My long-term goal: to make **full-brain interface technology** safe, accessible,
 ---
 
 ### 🕸 Connect
-- **Website:** [axiorium.github.io](https://axiorium.github.io)  
+- **Website:** [axiorium](https://satwiksinghchauhan.github.io/axiorium/)  
 - **Instagram:** [@ryo_yuto](https://instagram.com/ryo_yuto)  
 - **Discord:** `@ryoyuto`  
 
