@@ -22,7 +22,7 @@ The name was originally AxoSync, but that's taken. Axiorium stuck.
 
 - **Experimental Hardware** — Wave concentration deformers, nanotech array conductors, compact energy systems. Some of these are speculative. Some are in early prototyping. All are documented.
 
-[axiorium](https://satwiksinghchauhan.github.io/axiorium/)
+Website: [axiorium](https://satwiksinghchauhan.github.io/axiorium/)
 
 **The Vault**
 
