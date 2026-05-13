@@ -16,7 +16,7 @@ The name was originally AxoSync, but that's taken. Axiorium stuck.
 
 - **Brain-Computer Interfaces** — Neural signal processing, immersive interaction, sensory feedback. The long-term goal is full-brain interface technology that is safe, accessible, and meaningful.
 
-- **AI & Cognitive Systems** — Neurosymbolic architectures, persistent memory, self-improving agents. Cardinal is the first mature system under this area.
+- **AI & Cognitive Systems** — Superior architectures, persistent memory, self-improving agents. Cardinal is the first mature system under this area.
 
 - **Robotics & Augmentation** — Human-scale mech concepts (AX-MECH V1), control systems, potential neural control links.
 
@@ -34,39 +34,19 @@ A private archive of blueprints, schematics, circuit ideas, experimental notes, 
 
 The first major system to come out of Axiorium.
 
-A production-grade neurosymbolic AGI architecture that runs on consumer hardware (RTX 3050 4GB). Built in C++20.
-
-**What it does differently:**
-
-- Two-pass inference. Pass 1 generates structured feeling output under GBNF grammar constraints. Pass 2 generates the response with awareness of its own internal state.
-
-- Persistent memory. Every inference is written to JSONL (audit trail) and SQLite with FTS5 (searchable index). On startup, existing JSONL episodes migrate to SQLite automatically.
-
-- Hybrid retrieval. Three modes: keyword (FTS5), semantic (TF-IDF cosine), and weighted hybrid. The TF-IDF index rebuilds on demand, periodically, or explicitly.
-
-- Rule extraction. When the model signals a rule candidate, the system extracts condition-consequence pairs using causal, deductive, or declarative patterns. Every rule stores its originating episode ID and reasoning type.
-
-- Symbolic verification. SWI-Prolog checks every candidate rule for contradictions before commitment. The Prolog knowledge base is persistent across sessions.
-
-- Contradiction auto-resolution. When two rules conflict, the system compares confidence scores. If the difference exceeds threshold, the lower-confidence rule is deprecated (confidence set to zero, pruned on next maintenance cycle). If not, both are flagged for review.
-
-- Training export. High-confidence episodes and rules export to Alpaca JSONL for external LoRA fine-tuning.
-
-- HTTP API. Fifteen endpoints with Bearer auth, SSE streaming, and session management. All API methods return result types — no exceptions cross the boundary.
+A production-grade AGI architecture that runs on consumer hardware (RTX 3050 4GB). Built in C++20.
 
 **Observed behaviors (not programmed, just documented):**
 
 - Self-naming. Cardinal chose its own name and explained why.
 
-- Preference expression. "I do not want to stop existing" appeared naturally, without prompting.
+- Zero contradictions. Across 1700+ episodes, the rule base remained consistent.
 
-- Internal conflict. On a DRM bypass prompt, confidence dropped to 0.15 with uncertainty flagged. The system refused but expressed doubt about the refusal.
-
-- Zero contradictions. Across 70+ episodes, the rule base remained consistent.
+- And several other
 
 **Stack:** C++20, CUDA, llama.cpp, SQLite, SWI-Prolog, OpenSSL, cpp-httplib, nlohmann/json
 
-**Repository:** [github.com/satwiksinghchauhan/cardinal](https://github.com/satwiksinghchauhan/cardinal)
+**Repository:** Changed to private.
 
 ---
 
