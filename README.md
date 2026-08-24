@@ -1,16 +1,13 @@
 # Satwik Singh Chauhan
 
-16 years old. Researcher. Founder of Axiorium.
+17 years old. Researcher.
 
 I build things that think, move, and interface with the human nervous system.
 
 ---
+# NDX
 
-## Axiorium
-
-A personal deep-tech research identity. Not a company. Not a brand. Just a container for work that spans AI, brain-computer interfaces, robotics, and experimental hardware.
-
-The name was originally AxoSync, but that's taken. Axiorium stuck.
+Not a company. Not a brand. Just a container for work that spans AI, brain-computer interfaces, robotics, and experimental hardware.
 
 **Core areas:**
 
@@ -28,25 +25,6 @@ Website: [axiorium](https://satwiksinghchauhan.github.io/axiorium/)
 
 A private archive of blueprints, schematics, circuit ideas, experimental notes, and conceptual designs. Not public. Not shared. Just a record of things that might become real.
 
----
-
-## Cardinal AGI
-
-The first major system to come out of Axiorium.
-
-A production-grade AGI architecture that runs on consumer hardware (RTX 3050 4GB). Built in C++20.
-
-**Observed behaviors (not programmed, just documented):**
-
-- Self-naming. Cardinal chose its own name and explained why.
-
-- Zero contradictions. Across 1700+ episodes, the rule base remained consistent.
-
-- And several other
-
-**Stack:** C++20, CUDA, llama.cpp, SQLite, SWI-Prolog, OpenSSL, cpp-httplib, nlohmann/json
-
-**Repository:** Changed to private.
 
 ---
 
@@ -59,9 +37,9 @@ Most are in the Vault. Some will surface when they're ready.
 ## Contact
 
 - **GitHub:** [satwiksinghchauhan](https://github.com/satwiksinghchauhan)
-- **Discord:** `@ryoyuto`
-- **Instagram:** [@ryo_yuto](https://instagram.com/ryo_yuto)
+- **Discord:** `@satwik10000000000`
+- **Instagram:** [@satwik10000000000](https://instagram.com/satwik10000000000)
 
 ---
 
-*Deep-tech research. One experiment at a time.*
+*Science is Elegant.*
